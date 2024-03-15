@@ -1,0 +1,360 @@
+body{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* nav item center*/
+.nav-item-center{
+    text-align: center;
+    width: 100px;
+    border-radius: 12px;
+    position: relative;
+}
+/* hover nav item - center*/
+.h_tittle{
+    
+    font-size: 10px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: rgb(60, 58, 58);
+    color: #ffffff;
+    padding: 5px 13px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+li:hover .h_tittle{
+    bottom: -65%;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.nav li a{
+    font-size: 20px;
+    color: #828489;
+}
+ul li .active{
+    border-radius: 1px;
+    border-bottom: 3px solid #3651ff;
+    color: #3651ff;
+    margin-bottom: -3px;
+}
+
+.nav-item:hover{
+    background-color:  rgb(222, 222, 222);
+    
+}
+.box:hover{
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+    
+}
+ /* nav left  */
+.nav-left{
+    margin-left: 8px;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+}
+.box-search{
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius:30px;
+    width: 230px;
+    background-color: #F1F5F9;
+}
+.box-search > .isearch{
+    font-size: 18px;
+    color:   #bcc1c7;
+    margin-left: 2px;
+}
+.isearch{
+    font-size: 10px; 
+    fill: #e30000;
+    margin-bottom: -4px;
+}
+
+.box-search > .search-box{
+    flex: 0.5;
+    margin-left: 3PX;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #bcc1c7;
+    background-color: #F1F5F9;
+}
+/*end nav-left */
+
+/* start nav-right*/
+.nav-right {
+    margin-right: 8px;
+    width: 280px;
+    display: flex;
+    align-items: end;
+    list-style: none;
+    padding: 0;
+    justify-content: end;
+    align-items: center;
+}
+
+.box {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    margin-left: 7px;
+    background-color: rgb(222, 225, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.icon {
+    width: 24px;
+    
+}
+.imgp{
+    border-radius: 50%;
+}
+
+.R_down{
+    font-size: 80%;
+    text-align: center;
+    height: 20PX;
+    width: 20PX;
+    border-radius: 10PX;
+    position: absolute;
+    background-color:  rgb(222, 225, 235);
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    left: 60%;
+}
+
+
+/*notification drop down*/
+
+
+.NHead{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.allbtn{
+    margin-right: 10px;
+    width: 35px;
+    color: #4ba2d1;
+    border: none;
+    background-color: #e4eff5;
+    border-radius: 40%;
+    
+}
+.unbnt{
+    border: none;
+    background-color: #ffffff;
+}
+
+.Nsub{
+    margin: 10px 0px;
+    display: flex;
+    justify-content:space-between;
+}
+.see_all{
+    color: #4ba2d1;
+    border: none;
+    margin-right: -8px;
+    background-color: #ffffff;
+}
+
+.notfi-main{
+        margin-right: px;
+        width: 280px;
+        align-items: end;
+        list-style: none;
+        padding: 0;
+        justify-content: end;
+        align-items: center;
+    
+}
+
+.notfi-list{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: rgb(222, 225, 235);
+    position: relative;
+    margin-right: 5px;
+    
+}
+.N-down{
+    font-size: 70%;
+    text-align: center;
+    height: 20PX;
+    width: 20PX;
+    border-radius: 10PX;
+    position: absolute;
+    background-color: #4ba2d1;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    left: 60%;
+    color: #ffffff;
+}
+
+.notfi-list-sub{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    background-color: #3651ff;
+}
+.notfi-main{
+    float: left;
+    position: relative;
+    background-color: #bcc1c7;
+    width: 100%;
+}
+
+.notfi-list-right{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    background-color: #e30000;
+}
+.text-time{
+    margin-left: -8px;
+    margin-right: 0px;
+    color: #4ba2d1;
+}
+
+.col-md-10 .card-body{
+    font-size: 15px;
+    margin-left: -8px;
+    
+    padding: 0px;
+    border: none;
+    height: 70px;
+    overflow: hidden;
+}
+
+
+.norti_warap{
+    padding: 10px 12px;
+    right: 0.7%;
+    top: 90%;
+    position: absolute;
+    width: 350px;
+    max-height: 200px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: -3px 3px 3px rgba(0,0,0,0.1);
+    max-height: 700px; /* Set maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/*notification dropdown end*/
+.card-menu{
+    display: none;
+}
+/*message dropdown start*/
+
+.main{
+    padding: 10px 0px 0px;
+    right: 0.7%;
+    top: 90%;
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -3px 3px 3px rgba(0,0,0,0.1);
+    max-height: 600px; /* Set maximum height for scrolling */
+}
+.message_warap{
+    
+    padding: 0px 15px 0px;
+    position: relative;
+    width: 100%;
+    
+    border: none;
+    display:block;
+    max-height: 90%; /* Set maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.chatmenu{
+    display: flex;
+    color: #6b6969;
+    width: 25%;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+.inbox{
+    text-align: center;
+    margin-right: 10px;
+    width: 20%;
+    color: #4ba2d1;
+    border: none;
+    background-color: #e4eff5;
+    
+    
+}
+
+.message_search{
+    
+    padding-left: 7px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 35px;
+    border-radius:30px;
+    width: 100%;
+    background-color: #F1F5F9;
+
+}
+
+.col-md-10 .message-body{
+    font-size: 14px;
+    margin-left: 0px;
+    padding: 0px;
+    border: none;
+    height: 42px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    
+}
+.messaged{
+    position: relative;
+    display: flex;
+    margin-top: -7px;
+    color: #828489;
+}
+.card .row{
+    position: relative;
+    float: right;
+    
+    
+}
+.message-foot{
+    margin-top: 15px;
+    font-size: 12px;
+    position: relative;
+    height: 5%;
+    color: #4ba2d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
