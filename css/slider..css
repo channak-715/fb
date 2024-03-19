@@ -1,0 +1,8 @@
+.slider-wrapper .image-list{
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.image-item{
+    width: 20%;
+}

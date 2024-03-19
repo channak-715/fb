@@ -35,3 +35,16 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
+
+  document.getElementById("currentYear").innerText = new Date().getFullYear();
+
+
+/* diplay see more */
+  function toggleText() {
+    var textContainer = document.querySelector('.content');
+    var showMore = document.querySelector('.button');
+    textContainer.style.height = 'auto';
+    showMore.style.display = 'none';
+}
+
+
